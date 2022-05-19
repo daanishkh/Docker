@@ -7,4 +7,4 @@ COPY index.html home/ubuntu/CNGINX/var/www/html/
 ENTRYPOINT service nginx restart && bash
 EXPOSE 83/tcp
 WORKDIR home/ubuntu/CNGINX/var/www/html/
-VOLUME home/ubuntu/CNGINX/var/www/html/index.html
+VOLUME home/ubuntu/CNGINX/var/www/html/
